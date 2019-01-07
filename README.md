@@ -15,11 +15,13 @@ However, tensorflow (tensorflow_probability), matplotlib and numpy as required f
 Two of the scripts (planar_logprob.py and radial_logprob.py) are showing the transformation using 1 flow. Of course, these are cooked simple examples, to get more complex distributions, you'll need flow stacks and more complex transformations.
 
 Planar Flow (unimodal gaussian to multimodal gaussian)
+
 |  |  |  |
 | --- | --- | --- |
 | ![planar_logprob_target](https://github.com/PhilippeNguyen/keras_normalizing_flows/blob/master/assets/planar_logprob_target.png "planar_logprob_target") | ![planar_logprob_base](https://github.com/PhilippeNguyen/keras_normalizing_flows/blob/master/assets/planar_logprob_base.png "planar_logprob_base") | ![planar_logprob_transformed](https://github.com/PhilippeNguyen/keras_normalizing_flows/blob/master/assets/planar_logprob_transformed.png "planar_logprob_transformed") |
 
 Radial Flow (uniform to gaussian-ish)
+
 |  |  |  |
 | --- | --- | --- |
 | ![radial_logprob_target](https://github.com/PhilippeNguyen/keras_normalizing_flows/blob/master/assets/radial_logprob_target.png "radial_logprob_target") | ![radial_logprob_base](https://github.com/PhilippeNguyen/keras_normalizing_flows/blob/master/assets/radial_logprob_base.png "radial_logprob_base") | ![radial_logprob_transformed](https://github.com/PhilippeNguyen/keras_normalizing_flows/blob/master/assets/radial_logprob_transformed.png "radial_logprob_transformed") |
